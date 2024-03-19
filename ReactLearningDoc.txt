@@ -1,0 +1,2 @@
+npx ===>  Node package executer
+npm ===>  Node package manager

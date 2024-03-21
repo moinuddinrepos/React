@@ -48,7 +48,7 @@ function App() {
         <div className='flex shadow rounded-lg overflow-hidden mb-4 bg-black'>
           <input className='outline-none w-full p-3 m-2 rounded-lg' readOnly type="text" name="" 
           value={password} ref={passwordRef} placeholder='Password' />
-          <button onClick={copyPassword} className='outline-none text-white shrink-0 px-3 py-0.5'>COPY</button>
+          <button onClick={copyPassword} className='outline-none text-white shrink-0 px-3 py-0.5 hover:bg-slate-500 hover:rounded-lg hover:m-2 duration-300'>COPY</button>
         </div>
         <div className='flex text-sm gap-x-2'>
         <div className='bg-black text-white flex justify-center gap-4 p-3 rounded-lg mb-4 '>
